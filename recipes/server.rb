@@ -1,4 +1,4 @@
-package 'rsnapshot'
+include_recipe 'default'
 
 template '/etc/rsnapshot.conf' do
   source 'rsnapshot.conf.erb'

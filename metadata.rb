@@ -3,3 +3,5 @@ maintainer       'Morley, Jonathan'
 maintainer_email 'JMorley@cvent.com'
 description      'null'
 version          '0.0.1'
+
+depends 'epel'
