@@ -61,6 +61,6 @@ rsync_long_args	<%= @node[:rsnapshot][:rsync_long_args] %>
 
 <% if @node[:rsnapshot][:backups] %>
   <% @node[:rsnapshot][:backups].each do |backup| %>
-backup	<%= backup.source %>	<%= backup.config.target %><% if backup.config.params %>	<%= backup.config.params %><% end -%>
+backup	<%= backup.source %>	<%= backup.config.target %>
   <% end %>
 <% end %>
